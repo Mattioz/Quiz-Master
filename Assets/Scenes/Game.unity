@@ -807,7 +807,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4648193425072741754, guid: 805ff11704760084f881e27809d2fdf0, type: 3}
       propertyPath: m_Name
-      value: Button (1)
+      value: AnswerButton (1)
       objectReference: {fileID: 0}
     - target: {fileID: 4779956189405932716, guid: 805ff11704760084f881e27809d2fdf0, type: 3}
       propertyPath: m_Pivot.x
@@ -914,7 +914,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4648193425072741754, guid: 805ff11704760084f881e27809d2fdf0, type: 3}
       propertyPath: m_Name
-      value: Button (3)
+      value: AnswerButton (3)
       objectReference: {fileID: 0}
     - target: {fileID: 4779956189405932716, guid: 805ff11704760084f881e27809d2fdf0, type: 3}
       propertyPath: m_Pivot.x
@@ -1016,7 +1016,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4648193425072741754, guid: 805ff11704760084f881e27809d2fdf0, type: 3}
       propertyPath: m_Name
-      value: Button (2)
+      value: AnswerButton (2)
       objectReference: {fileID: 0}
     - target: {fileID: 4779956189405932716, guid: 805ff11704760084f881e27809d2fdf0, type: 3}
       propertyPath: m_Pivot.x
@@ -1195,7 +1195,7 @@ GameObject:
   - component: {fileID: 2100300133}
   - component: {fileID: 2100300132}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: QuestionText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1393,7 +1393,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4648193425072741754, guid: 805ff11704760084f881e27809d2fdf0, type: 3}
       propertyPath: m_Name
-      value: Button
+      value: AnswerButton (0)
       objectReference: {fileID: 0}
     - target: {fileID: 4779956189405932716, guid: 805ff11704760084f881e27809d2fdf0, type: 3}
       propertyPath: m_Pivot.x
