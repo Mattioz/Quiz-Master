@@ -13,3 +13,9 @@ MonoBehaviour:
   m_Name: Question 5
   m_EditorClassIdentifier: 
   question: Onde usar os "ScriptablesObjects" ?
+  answers:
+  - "Arquivos de Configura\xE7\xE3o do jogo"
+  - "Invent\xE1rio"
+  - Atributos dos inimigos
+  - Todas as Respostas
+  correctAnswerIndex: 4

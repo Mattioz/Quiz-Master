@@ -13,3 +13,9 @@ MonoBehaviour:
   m_Name: Question 1
   m_EditorClassIdentifier: 
   question: Qual outro nome tem o objeto musical "Palheta" ?
+  answers:
+  - Trinto
+  - Plectro
+  - Toca Cordas
+  - Palva
+  correctAnswerIndex: 2

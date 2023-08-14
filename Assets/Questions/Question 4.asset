@@ -13,3 +13,9 @@ MonoBehaviour:
   m_Name: Question 4
   m_EditorClassIdentifier: 
   question: "Qual a m\xFAsica da vida ?"
+  answers:
+  - Life is but a dream
+  - Silence
+  - Ruined
+  - Nightmare
+  correctAnswerIndex: 2
