@@ -14,7 +14,8 @@ public class Quiz : MonoBehaviour
     [SerializeField] Sprite correctAnswerSprite;
     void Start()
     {   
-        DisplayQuestion();
+        GetNextQuestion();
+        //DisplayQuestion();
     }
 
     public void OnAnswerSelected(int index)
@@ -65,8 +66,16 @@ public class Quiz : MonoBehaviour
     }
 
     void SetDefaultButtonSprite()
-    {
-        
+    {   
+        Image buttonImage;
+
+        for(int i = 0; i < answerButtons.Length; i++)
+        {
+            buttonImage = answerButtons[i].GetComponent<Image>();
+            buttonImage.sprite = defaultAnswerSprite;
+            
+        }
+
     }
 
 }
