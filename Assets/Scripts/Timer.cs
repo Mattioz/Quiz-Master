@@ -14,8 +14,8 @@ public class Timer : MonoBehaviour
     float timerValue;
 
     void Update()
-    {   UpdateTimer();
-        
+    {       
+        UpdateTimer();
     }
 
     public void CancelTimer()
