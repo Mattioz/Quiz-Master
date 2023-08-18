@@ -28,7 +28,9 @@ public class Quiz : MonoBehaviour
             buttonImage = answerButtons[index].GetComponent<Image>();
             buttonImage.sprite = correctAnswerSprite;
 
-        } else {
+        } 
+        else 
+        {
             correctAnswerIndex = question.GetCorrectAnswerIndex();
             string correctAnswer = question.GetAnswer(correctAnswerIndex);
             questionText.text = "Oops !!!\n" + correctAnswer;
